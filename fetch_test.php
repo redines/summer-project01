@@ -3,10 +3,10 @@ require_once 'connect.php';
 
 $conn = new mysqli($hostName, $userName, $pw, $db);
 if ($conn->connect_error) die($conn->connect_error);
+
 if (isset($_POST['delete']) && isset($_POST['isbn']))
 {
-$isbn
-= get_post($conn, 'isbn');
+$isbn= get_post($conn, 'isbn');
 $query = "DELETE FROM classics WHERE isbn='$isbn'";
 $result = $conn->query($query);
 if (!$result) echo "DELETE failed: $query<br>" .
