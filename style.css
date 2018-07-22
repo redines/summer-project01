@@ -1,0 +1,17 @@
+body {
+  background: #eeffff; }
+
+.grid-container {
+  display: grid;
+  justify-content: center; }
+
+.item1 {
+  grid-area: 1 / span 3; }
+
+.item2 {
+  grid-area: 2/ 2 / 3 /2; }
+
+.item3 {
+  grid-area: 2 /  3; }
+
+/*# sourceMappingURL=style.css.map */

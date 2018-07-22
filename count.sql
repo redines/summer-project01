@@ -1,5 +1,6 @@
 DROP DATABASE count;
 CREATE DATABASE count;
+USE count;
 
 create table users (
     id INT NOT NULL AUTO_INCREMENT, 

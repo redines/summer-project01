@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8"> 
     <title>Summer project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header>
-    <h1>this is my webb server</h1>
-</header>
 <main>
-    <p>början på strukturen av mitt sommarprojekt. Detta ska bli en räknare med databas för hur ofta någon sagt något.</p>
-    <div id="countForm">
+    <div class="grid-container">
+        <div class="item1"><h1>My summer project</h1></div>
+    <div class="item2" id="countForm">
         <p>Skriv in inlognings namn, skolämne,räknat ord och antalet ggr ordet är sagt</p>
         <form method="post" action="query.php">
             <input type="text" name="fname" placeholder="First name" required='required'><br>
@@ -20,8 +19,13 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-    <div id="ranking">
+    <div class="item3" id="ranking">
         <p>A ranking list on the words with the most amount of use</p>
+            <ul>
+                <li>placeholder</li>
+                <li>placeholder2</li>
+            </ul>
+    </div>
     </div>
 </main>
     
