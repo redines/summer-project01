@@ -1,5 +1,4 @@
 <?php
-
 /*
 TODO:
 INPUT SANITAZION
@@ -10,7 +9,6 @@ require_once 'connect.php';
 
 $conn = new mysqli($hostName, $userName, $pw, $db);
 if ($conn->connect_error) die("Connection to DB failed: ".$conn->connect_error);
-
 
 $stmt = $conn->prepare('INSERT INTO users (username,word,countword) VALUES(?,?,?)');
 $stmt->bind_param('ssi', $username, $word, $countword);
@@ -32,7 +30,6 @@ if(isset($_POST['count'])){
 }else {
     $countword = "(Not entered)";
 }
-
 
 $stmt->execute();
 

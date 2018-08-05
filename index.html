@@ -14,20 +14,17 @@
         <form method="post" action="query.php">
             <input type="text" name="fname" placeholder="First name" required='required'><br>
             <input type="text" name="word" placeholder="Word" required='required'><br>
-           <!-- <input type="text" name="subject" placeholder="subject"><br> -->
             <input type="number" name="count" placeholder="0" required='required'><br>
             <input type="submit" value="Submit">
         </form>
     </div>
     <div class="item3" id="ranking">
+        <button id="button" type="button">Update ranked list</button>
         <p>A ranking list on the words with the most amount of use</p>
-            <ul>
-                <li>placeholder</li>
-                <li>placeholder2</li>
-            </ul>
+        <div id="rank"></div>
     </div>
     </div>
 </main>
-    
+<script src="ajax.js"></script>
 </body>
 </html>
