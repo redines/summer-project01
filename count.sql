@@ -1,4 +1,3 @@
-DROP DATABASE count;
 CREATE DATABASE count;
 USE count;
 
@@ -9,5 +8,3 @@ create table users (
     countword INT NOT NULL, 
     PRIMARY KEY(id)
 ) ENGINE InnoDB;
-
-INSERT INTO users (username,word,countword) VALUES('pontus','skräp',5);

@@ -1,4 +1,11 @@
 <?php
+/**
+ * TODO
+ * 1.förhindra att ogilltiga värden skickas och godkänns till databasen
+ * 2.förhindra att tomma värden godtas
+ * 3.gör om till PDO
+ * 4.
+ */
 require_once 'connect.php';
 
 $conn = new mysqli($hostName, $userName, $pw, $db);

@@ -1,3 +1,11 @@
+/**
+ * TODO
+ * 1.hindra att requests skickas med tomma fält
+ * 2.se till så att man inte behöver refresha sidan för att kunna skicka en ny
+ * post för att lagra nya värden.
+ */
+
+
 //global variables
 var xhr = new XMLHttpRequest();
 
