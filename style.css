@@ -30,13 +30,17 @@ main{
 }
 
 .item3 {
+  margin-left:5%;
   grid-area: 2 /  3; 
 }
 
 /*Form layout*/
 input{
   font-size: 110%;
-  
 }
 
+/*Ranking list style*/
+ul{
+ 
+}
 /*# sourceMappingURL=style.css.map */
